@@ -1,0 +1,63 @@
+body {
+    background-image: url("/img/Cat.gif.gif") ;
+    height:  225px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ 
+ H1 {
+     color: rgb(83, 212, 208);
+     font-size: 70px;
+ 
+ }
+ 
+ #colores {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ 
+ }
+ 
+ .ejer button {
+    display: block;
+    margin-bottom: 25px;
+    width: 300px;
+   background-image: linear-gradient(to left, #09343f, #81b6b0,#2ae3bb);
+    padding: 25px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 1em;
+    outline: none;
+   
+ }
+ .ejer button:after{
+ pointer-events: none;
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ }
+ 
+ .ejer button:active{
+     box-shadow: 0 0 0.6em .25em var(--glow-color),
+     0 0 2.5em 2em var(--glow-spread-color)
+     inset 0 0 .5em .25em var(--glow-color);
+ 
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ .res{
+     margin-bottom: 20px;
+ }
+
+  
